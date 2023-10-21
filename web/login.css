@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' ,sans-serif;
+}
+
+.header
+{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    z-index: 99;
+    background: transparent;
+}
+.header .nav a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+.nav a:hover
+{
+    border-bottom: 4px solid #fff;
+    transition: .5s;
+}
+.search i
+{
+    color: #fff;
+    font-size: 1.5em;
+    margin-left: 20px;
+}
+.background
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-position: center;
+    background-size: cover;
+    filter: blur(5px); 
+}
+.home
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 75%;
+    height: 75%;
+    transform: translate(-50% , -50%);
+    background-image: url('https://img.thuthuatphanmem.vn/uploads/2018/10/26/anh-phong-canh-dep-o-viet-nam_055419462.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 10px 10px 0;
+}
+.content
+{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    padding: 100px 0;
+}
+.content a
+{ 
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    font-size: 3em;
+    font-weight: 700;
+    top: -40px;
+    left: 80px;
+}
+.content h2
+{
+    font-size: 3.5em;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 10px;
+}
+.content h3
+{
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
+}
+.content pre
+{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1em;
+    color: #fff;
+}
+.content .icon
+{
+    margin-top: 20px;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+}
+.content .icon i
+{
+    margin-left: 20px;
+    color: #fff;
+}
+.login
+{
+    width: 450px;
+    position: relative;
+    padding: 100px 30px;
+    backdrop-filter: blur(4px);
+}
+.login h2
+{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.login .input
+{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 40px
+}
+.login .input .input1
+{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    height: 30px;
+}
+::placeholder
+{
+    color: #fff;
+    font-size: 18px;
+}
+.login .input i
+{
+    position: relative;
+    right: -370px;
+    bottom: 27px;
+    color: #fff;
+}
+.check 
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    color: #fff;
+}
+.check a
+{
+    text-decoration: none;
+    color:#fff;
+}
+.check a:hover
+{
+    text-decoration: underline;
+}
+.login .button
+{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+}
+button
+{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(29, 160, 66);
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 7px;
+    color: #fff;
+}
+button:active
+{
+     font-size:25px ;
+}
+.login .sign-up
+{
+    display: flex;
+    justify-content: center;
+}
+.login .sign-up a
+{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+.login .sign-up p
+{ 
+    color: #fff;
+}
+.sign-up a:hover
+{
+    text-decoration: underline;
+}
+
+
+
+ .form-control {
+    position: relative;
+    /* margin: 20px 0 40px;
+    width: 190px; */
+    /* position: relative; */
+    width: 100%;
+    height: 30px;
+    margin-bottom: 40px
+  }
+  
+  .form-control input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px #fff solid;
+    display: block;
+    width: 100%;
+    /* padding: 15px 0; */
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .form-control input:focus,
+  .form-control input:valid {
+    outline: 0;
+    border-bottom-color: lightblue;
+  }
+  
+  .form-control label {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    pointer-events: none;
+    margin-top: -11px;
+  }
+  
+  .form-control label span {
+    display: inline-block;
+    font-size: 18px;
+    min-width: 5px;
+    color: #fff;
+    -webkit-transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .form-control input:focus+label span,
+  .form-control input:valid+label span {
+    color: lightblue;
+    -webkit-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+            transform: translateY(-30px);
+  } 
+
+
+
+
+  .card {
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 25px;
+    gap: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+  }
+  
+  /* for all social containers*/
+  .socialContainer {
+    width: 52px;
+    height: 52px;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: .3s;
+  }
+  /* instagram*/
+  .containerOne:hover {
+    background-color: #d62976;
+    transition-duration: .3s;
+  }
+  /* twitter*/
+  .containerTwo:hover {
+    background-color: #00acee;
+    transition-duration: .3s;
+  }
+  /* linkdin*/
+  .containerThree:hover {
+    background-color: #0072b1;
+    transition-duration: .3s;
+  }
+  /* Whatsapp*/
+  .containerFour:hover {
+    background-color: #128C7E;
+    transition-duration: .3s;
+  }
+  
+  .socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: .3s;
+  }
+  
+  .socialSvg {
+    width: 17px;
+  }
+  
+  .socialSvg path {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+  }
+  
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  
