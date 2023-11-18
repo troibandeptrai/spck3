@@ -31,9 +31,7 @@
 </head>
 
 <div>
-    <!-- Topbar Start -->
    
-    <!-- Topbar End -->
 
 
     <!-- Navbar Start -->
@@ -82,6 +80,7 @@
               <button style="border-radius: 10px;margin-left: 15px;" id="add-button">add</button>
               <div style="text-align: center;" >
                 <ul style="list-style-type: auto;border-radius: 5px; margin-top: 20px;    background-color: aliceblue;" id="shopping-list">
+                   
                  </ul>
                </div>
              </div>
@@ -101,14 +100,16 @@
     <div class="container-fluid bg-dark p-5">
         <div class="row">
             <div class="col-12 text-center">
-                <h1 class="display-4 text-white">Our Team</h1>
-                <a href="">Home</a>
-                <i class="far fa-square text-primary px-2"></i>
-                <a href="">Our Team</a>
+                <h1 class="display-4 text-white">Khóa học</h1>
+
             </div>
         </div>
     </div>
     <!-- Page Header End -->
+
+
+    <!-- About Start -->
+   
 
 
     <!-- Team Start -->
@@ -117,53 +118,26 @@
             <h1 class="display-5 mb-0">Our Team Members</h1>
             <hr class="w-25 mx-auto bg-primary">
         </div>
-        <div class="row g-5">
+        <div class="row g-5" id="product-list">
+            <template id="product-item">
             <div class="col-lg-4">
                 <div class="team-item position-relative overflow-hidden">
-                    <img class="img-fluid w-100" src="/////" alt="">
+                    <img class="img-fluid w-100" id="img" src="https://th.bing.com/th/id/OIP.BqxJ68CeY7YkU2Tv1Vfm6AHaFX?pid=ImgDet&rs=1" alt="">
                     <div class="team-text w-100 position-absolute top-50 text-center bg-primary p-4">
-                        <h3 class="text-white">Full Name</h3>
-                        <p class="text-white text-uppercase mb-0">Designation</p>
+                        <h3 class="text-white" id="noidung">Full Name</h3>
+                        <p class="text-white text-uppercase mb-0" id="tacgia">Designation</p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
-                <div class="team-item position-relative overflow-hidden">
-                    <img class="img-fluid w-100" src="/////" alt="">
-                    <div class="team-text w-100 position-absolute top-50 text-center bg-primary p-4">
-                        <h3 class="text-white">Full Name</h3>
-                        <p class="text-white text-uppercase mb-0">Designation</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="team-item position-relative overflow-hidden">
-                    <img class="img-fluid w-100" src="/////" alt="">
-                    <div class="team-text w-100 position-absolute top-50 text-center bg-primary p-4">
-                        <h3 class="text-white">Full Name</h3>
-                        <p class="text-white text-uppercase mb-0">Designation</p>
-                    </div>
-                </div>
-            </div>
+            </template>
+           
         </div>
     </div>
     <!-- Team End -->
     
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-primary text-secondary p-5">
-        <div class="row g-5">
-            <div class="col-12 text-center">
-                <h1 class="display-5 mb-4">Stay Update!!!</h1>
-                <form class="mx-auto" style="max-width: 600px;">
-                    <div class="input-group">
-                        <input type="text" class="form-control border-white p-3" placeholder="Your Email">
-                        <button class="btn btn-dark px-4">Sign Up</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
+   
     <div  class="container-fluid bg-dark text-secondary p-5">
         <div class="row g-5">
             <div class="col-lg-3 col-md-6">
@@ -226,6 +200,7 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <script src="./6.js" type="module"></script>
+    <script src="./khoahoc.js"></script>
 </body>
 
 </html>

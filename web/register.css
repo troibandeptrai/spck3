@@ -11,7 +11,7 @@ html{
 }
 
 .login-container{
-    background-image: url("https://th.bing.com/th/id/OIP.qjsKmsgxySve-T4Hq7OYRQHaEU?pid=ImgDet&rs=1");
+    background-image: url("https://vcdn1-dulich.vnecdn.net/2021/07/16/1-1626437591.jpg?w=460&h=0&q=100&dpr=2&fit=crop&s=i2M2IgCcw574LT-bXFY92g");
     background-size: cover;
     height: 1000px;
     position: relative;
@@ -45,7 +45,7 @@ html{
 
 .login-body{
     width: 448px;
-    height: 660px;
+    height: 600px;
     background-color:  rgba(0,0,0,0.75);
     position: absolute;
     left: 0;
