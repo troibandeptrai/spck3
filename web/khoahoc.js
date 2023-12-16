@@ -9,7 +9,7 @@ const getProducts = async () => {
         productItem.getElementById('img').src = product.img
         productItem.getElementById('noidung').textContent = product.noidung
         productItem.getElementById('tacgia').textContent = product.ten
-        productItem.getElementById('product-link').href = `./detail2.html?id=${product.id}`
+        // productItem.getElementById('product-link').href = `./detail2.html?id=${product.id}`
         productList.appendChild(productItem);
     });
 }
